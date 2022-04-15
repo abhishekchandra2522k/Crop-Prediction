@@ -30,7 +30,7 @@
 		<h3 class="heading mb-sm-5 mb-4 text-center">Our Models</h3>
 		<div class="row blog-grids">
 			<div class="col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5">
-				<img src="{{ url_for('static', filename='images/s3.jpg') }}" class="img-fluid" alt="" />
+				<img src="{{ url_for('static', filename='images/2.jpg') }}" class="img-fluid" alt="" />
 				<a href="{{ url_for('crop_recommend') }}">
 					<div class="blog-info">
 
@@ -38,6 +38,17 @@
 
 						<p class="mt-2">Recommendation about the type of crops to be cultivated which is best suited
 							for the respective conditions using Machine Learning Techniques</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-lg-4 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+				<img src="{{ url_for('static', filename='images/s2.jpg') }}" class="img-fluid" alt="" />
+				<a href="{{ url_for('fertilizer_recommendation') }}">
+					<div class="blog-info">
+						<h4>Fertilizer Recommendation</h4>
+						<p class="mt-2">Recommendation about the type of fertilizer best suited for the particular soil
+							and the recommended crop</p>
 					</div>
 				</a>
 			</div>
